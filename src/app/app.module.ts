@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
 
 import { EspecialesComponent } from './especiales/especiales.component';
+import { RecomendacionComponent } from './recomendacion/recomendacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeadComponent,
-    EspecialesComponent
+    EspecialesComponent,
+    RecomendacionComponent
   ],
   imports: [
     BrowserModule,

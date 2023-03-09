@@ -2,8 +2,8 @@
     <div class="w-3/4 h-[200px] flex items-end justify-start ">
         <a class="text-[50px] text-white">Bebidas del Dia.......</a>
     </div>
-    <div class=" w-3/4 flex items-center justify-center h-[400px] ">
-        <div class="grid md:grid-cols-4 grid-cols-1 gap-5 w-full h-[300px] ">
+    <div class=" md:w-3/4  w-1/2 flex items-center justify-center md:h-[400px] h-auto">
+        <div class="grid md:grid-cols-4 grid-cols-1 gap-5 w-full h-3/4 ">
             <button class="flex flex-col hover:scale-110 duration-500 w-full h-full bg-gray-200 rounded-xl  " *ngFor="let item of [0,1,2,3]">
                 <img src={{especiales[item]}} alt="bebida" class="rounded-t-xl w-full h-[250px]">
                 <div class="w-full h-auto rounded-b-xl flex items-center justify-center bg-gray-300">
