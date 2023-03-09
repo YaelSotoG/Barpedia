@@ -15,7 +15,8 @@ import { EspecialesComponent } from './especiales/especiales.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

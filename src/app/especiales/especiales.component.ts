@@ -12,6 +12,11 @@ export class EspecialesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  especiales: String[] =["./assets/bebida-1.jpg","./assets/bebida-2.jpeg","./assets/bebida-3.jpg", "./assets/bebida-4.jpg"]
+
+ 
+
+  especiales: String[] =["./assets/bebida-1.jpg","./assets/bebida-2.jpeg","./assets/bebida-3.jpg", "./assets/bebida-4.jpg"];
+  nombres: string[]=["Azulito","Cuba","Mojito","Fresota"];
+
 
 }
